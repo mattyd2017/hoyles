@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #00008B;
-
+    background-color: #001f3f;
+    margin-bottom: 10px;
 
 }
 
@@ -10,13 +10,14 @@
     padding: 10px;
     font-family: 'Michroma', sans-serif;
     font-size: 14px;
+    margin-right: 200px;
     
 }
 
 #nav {
     height: 50px;
-    background-color: #00008B;
-    
+    background-color: #001f3f;
+   
     font-family: 'Michroma', sans-serif;
 }
 
@@ -43,9 +44,13 @@ a {
     border-bottom: 3px solid white;
     padding: 5px;
 }
+.ico {
+    background-color: white;
+    margin-left: 200px;
+}
 
 hr {
-    border: 1px solid #00008B;
+    border: 1px solid #001f3f;
 
 }
 
@@ -55,7 +60,7 @@ hr {
 }
 
 #footer {
-    background-color: #00008B;
+    background-color: #001f3f;
 
 }
 
@@ -145,7 +150,7 @@ body {
 }
 
 .btn {
-    background-color: #00008B;
+    background-color: #001f3f;
 }
 
 #fb {
@@ -202,4 +207,8 @@ p {
 .logo {
    
     margin-bottom: 10px;
+}
+
+.navbar-brand{
+   
 }
