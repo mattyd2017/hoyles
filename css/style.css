@@ -9,14 +9,14 @@
     color: white;
     padding: 10px;
     font-family: 'Michroma', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    
 }
 
 #nav {
     height: 50px;
     background-color: #00008B;
-    font-weight: bold;
+    
     font-family: 'Michroma', sans-serif;
 }
 
@@ -25,16 +25,16 @@
 }
 
 a {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-    font-weight: bold;
+    
     padding-right: 10px;
     font-family: 'Michroma', sans-serif;
 }
 
 .navbar-brand {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 25px;
     color: white;
     font-family: 'Michroma', sans-serif;
 }
@@ -108,8 +108,8 @@ hr {
 }
 
 .mt-4 {
-    font-weight: bold;
-    font-size: 12px;
+    
+    font-size: 16px;
     color: white;
     font-family: 'Michroma', sans-serif;
 }
@@ -134,19 +134,20 @@ body {
 .jumbotron {
     background-color: white;
     font-family: 'Michroma', sans-serif;
-    border: 1px solid #00008B;
+    border: 1px solid #00008B; 
     background-image: url(../img/20171002_104559.jpg);
+    
 }
 
 #head {
     color: black;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #hd {
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .btn {
@@ -158,21 +159,36 @@ body {
 }
 
 #col {
-    background-color: white;
-    border: 1px solid #00008B;
+    background-color: #b3e5fc;
+   
 }
 
-h1 {
+h4 {
     font-family: 'Michroma', sans-serif;
 }
 
 .row {
     width: 100%;
 }
+
 p {
     font-family: 'Michroma', sans-serif;
 }
-.img-fluid {
-    width: 400px;
+.image-fluid {
+    width: 325px;
     height: 200px;
 }
+
+.zoom {    
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    
+   
+  }
+  
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* zooms must be in a div */
