@@ -213,4 +213,7 @@ p {
    
     margin-bottom: 10px;
 }
-
+.img-fluid.img-thumbnail {
+    width: 300px;
+    height: 300px;
+}
